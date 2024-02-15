@@ -1,4 +1,4 @@
-# Implementation of Univariate Linear Regression
+# EX-1 Implementation of Univariate Linear Regression
 ## AIM:
 To implement univariate Linear Regression to fit a straight line using least squares.
 
@@ -20,8 +20,8 @@ To implement univariate Linear Regression to fit a straight line using least squ
 ```
 /*
 Program to implement univariate Linear Regression to fit a straight line using least squares.
-Developed by: 
-RegisterNumber:  
+Developed by: BALAMURUGAN B
+RegisterNumber: 212222230016
 */
 ```
 
