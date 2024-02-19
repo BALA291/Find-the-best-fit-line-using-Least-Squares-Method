@@ -28,15 +28,16 @@ import matplotlib.pyplot as plt
 X=np.array(eval(input()))
 Y=np.array(eval(input()))
 X_mean=np.mean(X)
+print(X_mean)
 Y_mean=np.mean(Y)
+print(Y_mean)
 num=0
-denum=0
-for i in range(len(X)):
- num+=(X[i]-X_mean)*(Y[i]-Y_mean)
- denum+=(X[i]-X_mean)**2
-m=num/denum
-print(m)
-b=Y_mean - m*X_mean
+den=0
+for i in range (len(X)):
+    num+=(X[i]-X_mean)*(Y[i]-Y_mean)
+    den+=(X[i]-X_mean)**2
+m=num/den
+b=Y_mean-m*X_mean
 print(b)
 Y_pred=m*X+b
 print(Y_pred)
@@ -47,7 +48,8 @@ plt.show()
 ```
 
 ## Output:
-![best fit line](sam.png)
+![ml1](https://github.com/BALA291/Find-the-best-fit-line-using-Least-Squares-Method/assets/120717501/a876db4e-4bff-493a-9cac-4e9c61c3e6b6)
+
 
 
 ## Result:
